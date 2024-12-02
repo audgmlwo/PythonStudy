@@ -2,7 +2,7 @@ import sqlite3
 import random
 
 #sqlite 연결 및 db파일 생성
-conn = sqlite3.connect('./saveFiles/biography.db')
+conn = sqlite3.connect('./01PythonGrammar/saveFiles/biography.db')
 #커서 생성
 curs = conn.cursor()
 rnd = random.randint(0,100)
